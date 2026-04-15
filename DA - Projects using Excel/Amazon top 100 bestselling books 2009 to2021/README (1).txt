@@ -1,3 +1,5 @@
+![Amazon Bestseller Dashboard](Dashboard%20Amazon.png)
+
 # Amazon Top 100 Bestselling Books Analysis (2009-2021)
 
 ## 📊 Project Overview
