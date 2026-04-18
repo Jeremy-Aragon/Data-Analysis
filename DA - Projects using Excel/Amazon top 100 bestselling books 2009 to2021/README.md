@@ -1,35 +1,33 @@
 # Amazon Top 100 Bestselling Books Analysis (2009-2021)
 
-![Project Dashboard](Dashboard%20Amazon.png)
+![Amazon Bestseller Dashboard](Dashboard%20Amazon.png)
 
 ## 📊 Project Overview
-This project features an interactive Excel Dashboard designed to analyze market trends, pricing strategies, and author performance within Amazon's "Top 100 Bestselling Books" over 12 years. The goal was to transform raw retail data into actionable business insights for publishing stakeholders.
+This project features a professionally designed Excel Dashboard analyzing Amazon's "Top 100 Bestselling Books" over a 12-year period. The analysis transforms raw retail data into an interactive tool for tracking market performance, author popularity, and pricing trends.
 
-## 🎯 Business Problems Solved
-* **Market Share Analysis:** Identified the shifting dominance between Fiction and Non-Fiction genres to guide marketing budget allocation.
-* **Pricing Optimization:** Analyzed average price trends over a decade to identify the "price ceiling" for bestsellers.
-* **Risk Assessment:** Tracked author longevity and "staying power" to identify high-value talent for future acquisitions.
-* **Operational Efficiency:** Evaluated book format (Hardcover vs. Paperback) popularity to inform supply chain and printing decisions.
+## 🎯 Strategic Business Insights
+* **Author Performance:** Developed a dynamic Top 10 leaderboard to identify "power authors" (like Jeff Kinney) based on review volume and market presence.
+* **Pricing Strategy:** Analyzed average price points across different years to identify the optimal price ceiling for bestsellers.
+* **Volume Tracking:** Monitored total title counts and review metrics to gauge overall market engagement.
 
-## 🛠️ Key Features
-* **Interactive Slicers:** Allows users to filter the entire dataset by **Year**, **Genre**, and **Cover Type** with a single click.
-* **Dynamic KPI Cards:** Real-time calculation of Total Reviews, Average Ratings, and Average Price.
-* **Trend Visualization:** A smoothed line chart showing the evolution of book pricing from 2009 to 2021.
-* **Top 10 Leaderboard:** A sorted bar chart identifying the most successful authors by total appearances in the Top 100.
+## 🛠️ Technical Implementation
+* **Dynamic Pivot Data Linking:** Connected Text Box UI elements directly to Pivot Table calculations to create a modern, responsive "Card" interface.
+* **Interactive Slicers:** Integrated multi-select Year and Genre slicers using **Report Connections** to drive all visuals simultaneously.
+* **Advanced Charting:** Implemented a Dynamic Top 10 Bar Chart using Pivot Table Value Filters, allowing for year-by-year competitive analysis.
+* **Data Cleaning:** Processed the raw dataset using Python (Pandas) and Excel to handle missing values, standardize cover types, and group price ranges.
+
+## 📈 Key Features
+* **Top 10 Leaderboard:** Automatically sorts and displays the most impactful authors for any selected time period.
+* **Total Titles KPI:** A dynamic counter that updates instantly as filters are applied to show the number of books in the selection.
+* **Custom UI/UX Design:** Styled with Amazon's brand identity (Orange & Dark Gray) to provide a cohesive and professional user experience.
 
 ## 🗂️ Data Cleaning Process
-The raw dataset underwent a rigorous cleaning process using Python (Pandas) and Excel to ensure professional-grade accuracy:
-1. **Deduplication:** Removed redundant entries and "junk" index columns.
-2. **Standardization:** Grouped inconsistent cover types into clean categories (Hardcover, Paperback, Board Book).
-3. **Handling Missing Values:** Purged rows with null titles or "unknown" genres to maintain data integrity.
-
-## 📈 Insights & Recommendations
-* **Insight:** Non-Fiction titles consistently hold a higher average price point than Fiction, despite lower volumes.
-* **Recommendation:** Publishers should prioritize high-quality Hardcover releases for Non-Fiction to maximize profit margins.
-* **Insight:** Paperback formats have seen a 15% increase in market share in the Top 100 since 2018.
-* **Recommendation:** Focus inventory efforts on Paperback editions for mass-market Fiction titles.
+The raw data was refined to ensure professional-grade accuracy:
+1. **Deduplication:** Removed redundant entries and non-essential index columns.
+2. **Standardization:** Cleaned inconsistent categorical data (Genres and Cover Types).
+3. **Data Verification:** Validated pricing and rating data for consistency across all 12 years.
 
 ## 🚀 How to Use the Dashboard
-1. Open the `Dashboard - Amazon top 100 bestselling books 2009 to2021.xlsx` file.
-2. Use the **Slicers** on the left to filter the view by your area of interest.
-3. Observe the KPI cards and charts update automatically.
+1. Open the `Amazon_Bestseller_Dashboard.xlsx` file.
+2. Use the **Year Slicer** on the left to filter the entire dashboard view.
+3. Observe how the **Top 10 Authors** and **Total Titles** metrics update instantly to reflect your selection.
