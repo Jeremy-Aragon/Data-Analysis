@@ -1,33 +1,27 @@
 # Amazon Top 100 Bestselling Books Analysis (2009-2021)
 
-![Amazon Bestseller Dashboard](Dashboard%20Amazon.png)
+![Project Dashboard](Dashboard%20Amazon.png)
 
 ## 📊 Project Overview
-This project features a professionally designed Excel Dashboard analyzing Amazon's "Top 100 Bestselling Books" over a 12-year period. The analysis transforms raw retail data into an interactive tool for tracking market performance, author popularity, and pricing trends.
+This project features a styled Excel Dashboard analyzing Amazon's "Top 100 Bestselling Books" over a 12-year period. The goal was to transform raw retail data into a dynamic, interactive tool that tracks market performance and author trends using an Amazon-branded interface.
 
-## 🎯 Strategic Business Insights
-* **Author Performance:** Developed a dynamic Top 10 leaderboard to identify "power authors" (like Jeff Kinney) based on review volume and market presence.
-* **Pricing Strategy:** Analyzed average price points across different years to identify the optimal price ceiling for bestsellers.
-* **Volume Tracking:** Monitored total title counts and review metrics to gauge overall market engagement.
+## 🎯 Business Problems Solved
+* **Author Performance Tracking:** Created a dynamic leaderboard to identify "Top 10 authors" based on their frequency in the Top 100 and total review volume.
+* **Volume Analysis:** Real-time tracking of total entries to monitor market size and selection across different genres and years.
+* **Pricing Strategy:** Analyzed decade-long pricing trends to help stakeholders understand the "price ceiling" for bestselling titles.
 
-## 🛠️ Technical Implementation
-* **Dynamic Pivot Data Linking:** Connected Text Box UI elements directly to Pivot Table calculations to create a modern, responsive "Card" interface.
-* **Interactive Slicers:** Integrated multi-select Year and Genre slicers using **Report Connections** to drive all visuals simultaneously.
-* **Advanced Charting:** Implemented a Dynamic Top 10 Bar Chart using Pivot Table Value Filters, allowing for year-by-year competitive analysis.
-* **Data Cleaning:** Processed the raw dataset using Python (Pandas) and Excel to handle missing values, standardize cover types, and group price ranges.
-
-## 📈 Key Features
-* **Top 10 Leaderboard:** Automatically sorts and displays the most impactful authors for any selected time period.
-* **Total Titles KPI:** A dynamic counter that updates instantly as filters are applied to show the number of books in the selection.
-* **Custom UI/UX Design:** Styled with Amazon's brand identity (Orange & Dark Gray) to provide a cohesive and professional user experience.
+## 🛠️ Key Features
+* **Dynamic Top 10 Leaderboard:** A sorted bar chart that automatically updates to show the most successful authors for any selected time period.
+* **Interactive Slicers:** Custom-styled Amazon slicers that filter the entire dataset with a single click.
+* **Clean UI/UX:** A dark-themed sidebar combined with a "Shadow Card" layout for the KPIs, mimicking professional BI software like Power BI or Tableau.
 
 ## 🗂️ Data Cleaning Process
-The raw data was refined to ensure professional-grade accuracy:
-1. **Deduplication:** Removed redundant entries and non-essential index columns.
+The raw dataset was refined to ensure professional-grade accuracy:
+1. **Deduplication:** Removed redundant records and non-essential index columns.
 2. **Standardization:** Cleaned inconsistent categorical data (Genres and Cover Types).
-3. **Data Verification:** Validated pricing and rating data for consistency across all 12 years.
+3. **Accuracy Check:** Validated review counts and pricing data to ensure chart integrity.
 
 ## 🚀 How to Use the Dashboard
-1. Open the `Amazon_Bestseller_Dashboard.xlsx` file.
-2. Use the **Year Slicer** on the left to filter the entire dashboard view.
-3. Observe how the **Top 10 Authors** and **Total Titles** metrics update instantly to reflect your selection.
+1. Open the `Dashboard - Amazon top 100 bestselling books 2009 to2021.xlsx` file.
+2. Use the **Slicers** on the left to filter the view (Hold **Ctrl** to select multiple years).
+3. Observe how the **Top 10 Authors** and **Total Titles** metrics update instantly.
