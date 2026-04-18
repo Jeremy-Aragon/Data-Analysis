@@ -1,6 +1,6 @@
 # Amazon Top 100 Bestselling Books Analysis (2009-2021)
 
-![Project Dashboard](Dashboard%20Amazon.png)
+![Project Dashboard](Project%20Dashboard.png)  
 
 ## 📊 Project Overview
 This project features a styled Excel Dashboard analyzing Amazon's "Top 100 Bestselling Books" over a 12-year period. The goal was to transform raw retail data into a dynamic, interactive tool that tracks market performance and author trends using an Amazon-branded interface.
